@@ -1,4 +1,4 @@
-from constants import HOST, PORT, CREDENTIALS
+from constants import HOST, CREDENTIALS
 from socketIO_client import SocketIO, ConnectionError
 
 def ready(args):
