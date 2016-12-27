@@ -12,7 +12,7 @@ def main():
     try:
         socket = SocketIO(HOST) #socket = SocketIO(HOST, PORT)
     except ConnectionError:
-        print "Couldn't connect to Meshblu"
+        print "Couldn't connect to EMBERS"
         exit(1)
 
     socket.emit('identity', CREDENTIALS)
