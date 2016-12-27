@@ -34,6 +34,6 @@ After creating gateway(s), device(s) and cunfiguring the constants file (with ga
 
 In order to send messages from devices to the gateway, you just need to use one of our publishers.
 
-#### Next Steps
+## Next Steps
 
 To simplify the devices and gateways creation we are working in the developer dashboard, available [here]( https://developer.embers.city/dashboard), so that you can create devices and gateways in few seconds!
