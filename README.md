@@ -30,9 +30,9 @@ This will return the device uuid and token that you will need to send messages f
 
 #### Run EMBERS-Client
 
-After creating gateway(s), device(s) and cunfiguring the constants file (with gateway uuid and token), you are able to send and receive messages usin EMBERS. For that, you just need to run  `python embers_client.py` in order to start the EMBERS-client that will receive the messages sent from devices;
+After creating gateway(s), device(s) and cunfiguring the constants file (with gateway uuid and token), you are able to receive messages using EMBERS. For that, you just need to run  `python embers_client.py` in order to start the EMBERS-client that will receive the messages sent from devices;
 
-In order to send messages from devices to the gateway, you just need to use one of our publishers.
+In order to send messages from devices to the gateway, you just need to use one of our publishers. For example, you can use the EMBERS-HTTP-Publisher availabe [here](https://github.com/emberscity/EMBERS-HTTP-Publisher).
 
 ## Next Steps
 
